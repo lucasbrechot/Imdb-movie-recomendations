@@ -4,10 +4,10 @@ import json
 import numpy as np
 from ast import literal_eval
 
-movies = pd.read_csv('/Users/lucasbrechot/Imdb/archive/movies_metadata.csv')
-ratings = pd.read_csv('/Users/lucasbrechot/Imdb/archive/ratings.csv')
-keywords = pd.read_csv('/Users/lucasbrechot/Imdb/archive/keywords.csv')
-credits = pd.read_csv('/Users/lucasbrechot/Imdb/archive/credits.csv')
+movies = pd.read_csv('XXXXX/movies_metadata.csv')
+ratings = pd.read_csv('XXXXX/ratings.csv')
+keywords = pd.read_csv('XXXXX/keywords.csv')
+credits = pd.read_csv('XXXXX/credits.csv')
 
 movies = movies.drop([19730, 29503, 35587])
 
